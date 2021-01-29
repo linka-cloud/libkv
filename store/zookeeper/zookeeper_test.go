@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/libkv"
-	"github.com/docker/libkv/store"
-	"github.com/docker/libkv/testutils"
+	"go.linka.cloud/libkv"
+	"go.linka.cloud/libkv/store"
+	"go.linka.cloud/libkv/testutils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/libkv/store"
 	"github.com/stretchr/testify/assert"
+
+	"go.linka.cloud/libkv/store"
 )
 
 func TestNewStoreUnsupported(t *testing.T) {
