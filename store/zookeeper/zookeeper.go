@@ -4,9 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/libkv"
-	"github.com/docker/libkv/store"
 	zk "github.com/samuel/go-zookeeper/zk"
+
+	"go.linka.cloud/libkv"
+	"go.linka.cloud/libkv/store"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/libkv/store"
+	"go.linka.cloud/libkv/store"
 )
 
 // Initialize creates a new Store object, initializing the client

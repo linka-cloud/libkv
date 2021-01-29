@@ -12,9 +12,9 @@ import (
     "time"
     "log"
 
-    "github.com/docker/libkv"
-    "github.com/docker/libkv/store"
-    "github.com/docker/libkv/store/consul"
+    "go.linka.cloud/libkv"
+    "go.linka.cloud/libkv/store"
+    "go.linka.cloud/libkv/store/consul"
 )
 
 func init() {

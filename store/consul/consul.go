@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/libkv"
-	"github.com/docker/libkv/store"
 	api "github.com/hashicorp/consul/api"
+	"go.linka.cloud/libkv"
+	"go.linka.cloud/libkv/store"
 )
 
 const (
