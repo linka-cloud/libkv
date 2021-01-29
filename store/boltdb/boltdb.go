@@ -12,8 +12,8 @@ import (
 
 	bolt "go.etcd.io/bbolt"
 
-	"go.linka.cloud/libkv"
-	"go.linka.cloud/libkv/store"
+	"go.linka.cloud/libkv/v2"
+	"go.linka.cloud/libkv/v2/store"
 )
 
 var (

@@ -1,8 +1,6 @@
-module go.linka.cloud/libkv/store/etcd
+module go.linka.cloud/libkv/store/etcd/v2
 
 go 1.15
-
-
 
 replace github.com/coreos/bbolt => go.etcd.io/bbolt v1.3.5
 
@@ -24,7 +22,7 @@ require (
 	github.com/prometheus/client_golang v1.9.0 // indirect
 	github.com/stretchr/testify v1.7.0
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20201229170055-e5319fda7802 // indirect
-	go.linka.cloud/libkv v0.0.0-00010101000000-000000000000
+	go.linka.cloud/libkv/v2 v2.0.0-00010101000000-000000000000
 	go.uber.org/zap v1.16.0 // indirect
 	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad // indirect
 	golang.org/x/net v0.0.0-20210119194325-5f4716e94777 // indirect
@@ -33,6 +31,3 @@ require (
 	google.golang.org/grpc v1.35.0 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
-
-
-

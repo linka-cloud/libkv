@@ -5,8 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"go.linka.cloud/libkv/store"
 	"github.com/stretchr/testify/assert"
+
+	"go.linka.cloud/libkv/v2/store"
 )
 
 // RunTestCommon tests the minimal required APIs which

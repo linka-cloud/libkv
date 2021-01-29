@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.linka.cloud/libkv"
-	"go.linka.cloud/libkv/store"
-	"go.linka.cloud/libkv/testutils"
+	"go.linka.cloud/libkv/v2"
+	"go.linka.cloud/libkv/v2/store"
+	"go.linka.cloud/libkv/v2/testutils"
 )
 
 var (

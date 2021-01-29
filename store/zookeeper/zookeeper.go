@@ -6,8 +6,8 @@ import (
 
 	zk "github.com/samuel/go-zookeeper/zk"
 
-	"go.linka.cloud/libkv"
-	"go.linka.cloud/libkv/store"
+	"go.linka.cloud/libkv/v2"
+	"go.linka.cloud/libkv/v2/store"
 )
 
 const (

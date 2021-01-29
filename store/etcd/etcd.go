@@ -11,8 +11,9 @@ import (
 	"time"
 
 	etcd "github.com/coreos/etcd/client"
-	"go.linka.cloud/libkv"
-	"go.linka.cloud/libkv/store"
+
+	"go.linka.cloud/libkv/v2"
+	"go.linka.cloud/libkv/v2/store"
 )
 
 var (

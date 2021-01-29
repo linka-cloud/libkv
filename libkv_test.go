@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.linka.cloud/libkv/store"
+	"go.linka.cloud/libkv/v2/store"
 )
 
 func TestNewStoreUnsupported(t *testing.T) {

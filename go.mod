@@ -1,4 +1,4 @@
-module go.linka.cloud/libkv
+module go.linka.cloud/libkv/v2
 
 go 1.15
 

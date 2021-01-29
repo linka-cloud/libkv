@@ -3,7 +3,7 @@ package mock
 import (
 	"github.com/stretchr/testify/mock"
 
-	"go.linka.cloud/libkv/store"
+	"go.linka.cloud/libkv/v2/store"
 )
 
 // Mock store. Mocks all Store functions using testify.Mock

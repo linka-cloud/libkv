@@ -3,14 +3,15 @@
 mod_dev() {
   find store/* -type d -print0 |
     while IFS= read -r -d '' plugpath; do
-      echo 'replace go.linka.cloud/libkv => ../..' >>"${plugpath}"/go.mod
+      echo 'replace go.linka.cloud/libkv/v2 => ../..' >>"${plugpath}"/go.mod
     done
 }
 
 mod_release() {
   find store/* -type d -print0 |
     while IFS= read -r -d '' plugpath; do
-      sed -i 's|replace go.linka.cloud/libkv => ../..||g' "${plugpath}"/go.mod
+      sed -i 's|replace go.linka.cloud/libkv/v2 => ../..||g' "${plugpath}"/go.mod
+      sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}' "${plugpath}"/go.mod
     done
 }
 
