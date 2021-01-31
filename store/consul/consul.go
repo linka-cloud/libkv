@@ -61,6 +61,10 @@ func Register() {
 	libkv.AddStore(store.CONSUL, New)
 }
 
+func init() {
+	Register()
+}
+
 // New creates a new Consul client given a list
 // of endpoints and optional tls config
 func New(endpoints []string, options *store.Config) (store.Store, error) {

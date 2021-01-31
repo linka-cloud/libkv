@@ -54,6 +54,10 @@ func Register() {
 	libkv.AddStore(store.BOLTDB, New)
 }
 
+func init() {
+	Register()
+}
+
 // New opens a new BoltDB connection to the specified path and bucket
 func New(endpoints []string, options *store.Config) (store.Store, error) {
 	var (

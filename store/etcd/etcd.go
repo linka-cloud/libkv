@@ -66,6 +66,10 @@ func Register() {
 	libkv.AddStore(store.ETCD, New)
 }
 
+func init() {
+	Register()
+}
+
 // New creates a new Etcd client given a list
 // of endpoints and an optional tls config
 func New(addrs []string, options *store.Config) (store.Store, error) {

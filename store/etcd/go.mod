@@ -31,3 +31,4 @@ require (
 	google.golang.org/grpc v1.35.0 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
+replace go.linka.cloud/libkv/v2 => ../..

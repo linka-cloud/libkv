@@ -36,6 +36,10 @@ func Register() {
 	libkv.AddStore(store.ZK, New)
 }
 
+func init() {
+	Register()
+}
+
 // New creates a new Zookeeper client given a
 // list of endpoints and an optional tls config
 func New(endpoints []string, options *store.Config) (store.Store, error) {
